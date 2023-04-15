@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'choclitos';
+  src: url(.../assets/natalia.ttf) format('truetype'); /* Ruta del archivo de fuente */
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*DESCRIPCION Y FOTO*/
+h1{
+  text-align: center;
+  
+}
+
+.introduccion{
+  background-color: aquamarine;
+  height:auto;
+}
+
+.descripcion::first-letter{
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.natalia{
+  background: forestgreen;
+  height: auto;
+}
+
+.fondo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+/* TERMINA DESCRIPCION Y FOTO*/
+
+/* COMIENZAN PROYECTOS*/
+#titulo1{
+  display: flexbox;
+  font-size:3rem;
+}
+.proyectos{
+  background: darkgoldenrod;
+  height: 7rem;
+}
+
+.proyecto1{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(213, 129, 171);
+}
+
+.proyecto2{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(91, 161, 235);
+}
+
+.proyecto3{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(141, 64, 204);
+}
+
+.proyecto4{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(199, 37, 22);
+}
+
+.proyecto5{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(199, 146, 22);
+}
+
+.proyecto6{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 199, 22);
+}
+/* TERMINAN PROYECTOS*/
